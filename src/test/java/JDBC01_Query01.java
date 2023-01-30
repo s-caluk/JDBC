@@ -26,9 +26,11 @@ public class JDBC01_Query01 {
         // 5 - Sonuclari gormek icin Iteration ile Set icerisindeki elemanlari while dongusu icerisinde yazdiracagiz
 
         while(veri.next()){
-            System.out.println(veri.getString(1) + "  " +
+            System.out.println(veri.getInt(1) + "  " +
                                 veri.getString(2) + "  " +
-                                veri.getString(3));
+                                veri.getString(3) + "  " +
+                                veri.getInt(4) + "  " +
+                                veri.getString(5)) ;
         }
 
         // 6 - Olusturulan nesneleri close() ile kapatiyoruz ki bellekten kaldiralim
