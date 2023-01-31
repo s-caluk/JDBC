@@ -1,5 +1,5 @@
 
-//tabloyu olusturuyor , islem yapiyor , siliyor. 
+//tabloyu olusturuyor , islem yapiyor , siliyor.
 
 import java.sql.*;
 
@@ -106,17 +106,11 @@ public class Ubung02 {
             System.out.println("Tablo silindi");
         }
 
-
-
-
-
-        con.close();
-        st.close();
-        tablo1.close();
-        tablo2.close();
-        tablo12.close();
-
-
+        con.close();           // Connection
+        st.close();            // Statement
+        tablo1.close();        // ResultSet
+        tablo2.close();        // ResultSet
+        tablo12.close();       // ResultSet
 
     }
 }
