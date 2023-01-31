@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07253539-37c6-4dc4-a94f-17c0c0d068e1" name="Changes" comment="ubung01">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Ubung01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ubung02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +41,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Ubung01">
+  <component name="RunManager" selected="Application.Ubung02">
     <configuration name="JDBC01_Query01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JDBC01_Query01" />
       <module name="JDBCTeam108" />
@@ -57,8 +56,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ubung02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ubung02" />
+      <module name="JDBCTeam108" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ubung02" />
         <item itemvalue="Application.Ubung01" />
         <item itemvalue="Application.JDBC01_Query01" />
       </list>
@@ -73,6 +80,14 @@
       <option name="presentableId" value="Default" />
       <updated>1675113313825</updated>
     </task>
+    <task id="LOCAL-00001" summary="ubung01">
+      <created>1675201842193</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675201842193</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
