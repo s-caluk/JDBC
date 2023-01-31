@@ -1,5 +1,6 @@
 
-//tabloyu 1 kez olusturup veri ekledikten sonra yoruma alin, yoksa her run da tekrar dener
+//tabloyu 1 kez olusturup veri ekledikten sonra yoruma alin,
+// yoksa her run da tekrar olusturmayi ve veri eklemeyi dener
 //kodu yazdiktan sonra close yapmayi unutma
 
 import java.sql.*;
