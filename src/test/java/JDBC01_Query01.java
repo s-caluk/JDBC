@@ -12,14 +12,17 @@ public class JDBC01_Query01 {
         // 2 - Baglantiyi olusturmak icin username ve password girisi yapmaliyiz
         // Burada da username ve password'un yanlis olmasi ihtimaline karsi getConnection metodu
         // SQLException firlatmami istiyor
+        //driverden javaya bir connection olusturuyoruz
 
         Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sys?serverTimezone=UTC", "root", "1234");
 
-        // 3 - SQL Query'leri icin bir Statement objesi olusturup , javada kendimize SQL sorgulari icin bir alan acacagiz.
+        // 3 - SQL Query'leri icin bir Statement objesi olusturup ,
+        // connection üzerinden SQL sorgulari icin bir alan acacagiz.
 
         Statement st = con.createStatement();
 
         // 4 - SQL sorgularini yazip, calistirabiliriz
+        //select ile calisacaksan resultSet datatipinde bir objeye atiyorsun
 
         ResultSet veri =st.executeQuery("SELECT * FROM personel");
 
