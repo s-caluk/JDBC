@@ -7,6 +7,7 @@
     <list default="true" id="07253539-37c6-4dc4-a94f-17c0c0d068e1" name="Changes" comment="ubung01">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/JDBC02_Query02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JDBC02_Query02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JDBC02_execute_executeUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JDBC02_execute_executeUpdate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,16 +43,28 @@
     "last_opened_file_path": "C:/Users/SHRCONT/Desktop/JavaTester/MYRESUME"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.JDBC02_Query02">
-    <configuration name="JDBC01_Query01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JDBC01_Query01" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.JDBC02_execute_executeUpdate">
+    <configuration name="JDBC02_Query02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JDBC02_Query02" />
       <module name="JDBCTeam108" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JDBC02_Query02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JDBC02_Query02" />
+    <configuration name="JDBC02_execute_executeUpdate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JDBC02_execute_executeUpdate" />
+      <module name="JDBCTeam108" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JDBC02_execute_executeUpdate2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JDBC02_execute_executeUpdate2" />
       <module name="JDBCTeam108" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -73,10 +86,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JDBC02_execute_executeUpdate" />
+        <item itemvalue="Application.JDBC02_execute_executeUpdate2" />
+        <item itemvalue="Application.JDBC02_execute_executeUpdate2" />
         <item itemvalue="Application.JDBC02_Query02" />
         <item itemvalue="Application.Ubung02" />
-        <item itemvalue="Application.Ubung01" />
-        <item itemvalue="Application.JDBC01_Query01" />
       </list>
     </recent_temporary>
   </component>

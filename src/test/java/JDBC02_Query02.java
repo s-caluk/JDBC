@@ -3,6 +3,8 @@
 // bu 3 satir hep sabit, ne yaparsiniz? metod olusturup claslardan onu cagirirsiniz!
 // burasi Javanin cöplügü, Java ve sql de en ufak bir syntax hatasi kodu calistirmaz.
 
+//execute() , executeQuery() , executeUpdate() methodlari arasindaki farklar neler ??
+
 import java.sql.*;
 
 public class JDBC02_Query02 {
