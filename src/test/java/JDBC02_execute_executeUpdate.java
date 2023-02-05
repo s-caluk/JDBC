@@ -2,7 +2,7 @@
 
 //execute() ,       => create icin kullanilir
 // executeQuery() , => select icin kullanilir
-// executeUpdate()  => insert icin kullanilir
+// executeUpdate()  => insert/update/delete icin kullanilir
 // addBatch         => addBatch(each) her SQL komutu torbaya atiyor
 // executeBatch()   => torbayi tek seferde götürüp database´e isliyor
 // methodlari arasindaki farklar neler ??
@@ -19,13 +19,16 @@ public class JDBC02_execute_executeUpdate {
         /*
  	A) CREATE TABLE, DROP TABLE, ALTER TABLE gibi DDL ifadeleri icin sonuc kümesi (ResultSet)
  	   dondurmeyen metotlar kullanilmalidir. Bunun icin JDBC'de 2 alternatif bulunmaktadir.
+
  	    1) execute() metodu - boolean dondurur.
  	    2) executeUpdate() metodu - int deger dondurur.
- 	B) - execute() metodu her tur SQL ifadesiyle kullanilabilen genel bir komuttur.
+
+ 	B) - execute() metodu her tur SQL ifadesiyle kullanilabilen "genel" bir komuttur.
  	   - execute(), Boolean bir deger dondurur. DDL islemlerinde false dondururken,
  	     DML islemlerinde true deger dondurur.
  	   - Ozellikle, hangi tip SQL ifadesine hangi metodun uygun oldugunun bilinemedigi
  	     durumlarda tercih edilmektedir.
+
  	C) - executeUpdate() metodu ise INSERT, Update gibi DML islemlerinde yaygin kullanilir.
  	   - bu islemlerde islemden etkilenen satir sayisini dondurur.
  	   - Ayrıca, DDL islemlerinde de kullanilabilir ve bu islemlerde 0 dondurur.

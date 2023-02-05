@@ -5,6 +5,7 @@
 
 //execute() , executeQuery() , executeUpdate() methodlari arasindaki farklar neler ??
 
+
 import java.sql.*;
 
 public class JDBC02_Query02 {

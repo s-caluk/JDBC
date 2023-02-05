@@ -40,7 +40,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/SHRCONT/Desktop/JavaTester/MYRESUME"
+    "last_opened_file_path": "C:/Users/SHRCONT/Desktop/JavaTester/+JDBC"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -48,10 +48,10 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JDBC02_execute_executeUpdate">
+  <component name="RunManager" selected="Application.JDBC02_Query02">
     <configuration name="JDBC02_Query02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JDBC02_Query02" />
-      <module name="JDBCTeam108" />
+      <module name="+JDBC" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -86,10 +86,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JDBC02_Query02" />
         <item itemvalue="Application.JDBC02_execute_executeUpdate" />
         <item itemvalue="Application.JDBC02_execute_executeUpdate2" />
         <item itemvalue="Application.JDBC02_execute_executeUpdate2" />
-        <item itemvalue="Application.JDBC02_Query02" />
         <item itemvalue="Application.Ubung02" />
       </list>
     </recent_temporary>
